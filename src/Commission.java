@@ -20,6 +20,6 @@ public class Commission extends Hourly{
     }
 
     public String toString() {
-        return super.toString() + totalSales;
+        return super.toString() + "\nTotal sales: " + totalSales;
     }
 }
